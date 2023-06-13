@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Matias-Poletto-DWN2AP-2022</title>
+  </head>
+  <body>
+    <div class="container-fluid sticky-top">
+      <nav class="navbar nav-main navbar-expand-lg row">
+        <div class="col-lg-4 col-md-6 col-sm-6 col-6">
+          <a class="navbar-brand" href="#">
+            <img
+              src="img/logo.png"
+              alt="Logo Digital Spain"
+              width="80"
+              height="80"
+            />
+          </a>
+        </div>
+        <div class="col-lg-8 col-md-6 col-sm-6 col-6">
+          <div class="m-auto">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse row" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item col-2">
+                <a
+                  class="nav-link active text-light font-weight-bold"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item col-2">
+                <a class="nav-link text-light font-weight-bold" href="#ventajas"
+                  >Ventajas</a
+                >
+              </li>
+              <li class="nav-item col-2">
+                <a class="nav-link text-light font-weight-bold" href="#consejos"
+                  >Consejos</a
+                >
+              </li>
+              <li class="nav-item col-2">
+                <a
+                  class="nav-link text-light font-weight-bold"
+                  href="#requisitos"
+                  >Requisitos</a
+                >
+              </li>
+              <li class="nav-item col-2">
+                <a class="nav-link text-light font-weight-bold" href="#contacto"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!--CARROUSEL -->
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+          <img
+            src="img/banner1.jpg"
+            class="d-block w-100"
+            alt="work and travel"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>No dejes de viajar</h5>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="img/banner2.jpg" class="d-block w-100" alt="Coworking" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Aprende de colegas</h5>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img
+            src="img/banner3.jpg"
+            class="d-block w-100"
+            alt="Un Mundo digital"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Un mundo digital</h5>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- VENTAJAS -->
+    <section id="ventajas" class="p-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div
+              class="h2-titulos pb-2 text-dark d-flex justify-content-center"
+            >
+              <h2 class="text-white fs-1 pe-2 ps-2">VENTAJAS</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8 col-sm-12 p-ventajas">
+            <p>
+              Los nómadas digitales son una figura profesional relativamente
+              reciente, muchos países han estudiado cómo incluir los visas para
+              nómadas digitales en sus políticas fronterizas. Por lo que las
+              naciones están implementando en estos momentos normas y visas
+              específicas para ellos.
+            </p>
+            <p>
+              Europa está a la vanguardia de estos cambios. Los países de la
+              Unión Europea esperan atraer a profesionales y al impulso
+              económico que a menudo aportan.
+            </p>
+            <p>
+              España planea introducir una visa para nómadas digitales que
+              permitirá a las personas quedarse y trabajar durante un periodo
+              máximo de 6 meses, sin tener que registrarse oficialmente.
+            </p>
+
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    <span class="ver-mas"> Ver Más</span>
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse hide"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Se espera que el visado de nómada digital de España ayude
+                      a atraer a más trabajadores extranjeros, especialmente a
+                      las zonas rurales afectadas por la despoblación.
+                    </p>
+                    <p>
+                      ¿Por qué España? Factores como el coste de vida barato, el
+                      clima de sol y playa, los bajos índices de criminalidad e
+                      incluso la velocidad de la banda ancha (se encuentra entre
+                      las más rápidas de Europa, con 148 Mbps, casi el doble que
+                      la del del Reino Unido de 75 Mbps) son determinantes para
+                      elegir instalarse en nuestro país.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 text-center">
+            <img
+              src="img/img-texto.jpg"
+              alt="mundo digital y españa"
+              class="img-fluid rounded-2 img-mundo border border-2 border-secondary"
+              style="max-width: 100%"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONSEJOS -->
+
+    <section id="consejos" class="container-fluid pt-3">
+      <div class="h2-titulos text-white d-flex justify-content-center">
+        <h2 class="bg-dark fs-1 rounded-1 pe-3 ps-3">CONSEJOS</h2>
+      </div>
+      <article class="row">
+        <div class="container-card col-lg-4 col-md-6 col-sm-12">
+          <div class="card">
+            <div class="image">
+              <img src="img/internet.png" />
+            </div>
+            <div class="content">
+              <h3>Buena conexión a internet</h3>
+              <p class="p-consejos">
+                Cuando planifiques tu próximo destino, investiga la calidad de
+                la conexión y si tu alojamiento cuenta con red wifi. Asegúrate
+                también de que tienes suficientes datos en tu smartphone por si
+                necesitas recurrir a ellos.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-card col-lg-4 col-md-6 col-sm-12">
+          <div class="card">
+            <div class="image">
+              <img src="img/working.png" />
+            </div>
+            <div class="content">
+              <h3>Anotate en un coworking</h3>
+              <p class="p-consejos">
+                Además de contar con un espacio de trabajo adaptado, podrás
+                conocer a otros profesionales y quién sabe, quizá captar nuevos
+                clientes o conseguir colaboraciones. Además, no te sentirás
+                solo. Y es que una de las principales desventajas de ser nómada
+                digital es precisamente la soledad.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-card col-lg-4 col-md-6 col-sm-12">
+          <div class="card">
+            <div class="image">
+              <img src="img/clock.png" />
+            </div>
+            <div class="content">
+              <h3>Sigue un horario</h3>
+              <p class="p-consejos-2">
+                Planificar tu tiempo es esencial para ser productivo y
+                aprovechar al máximo el tiempo que pasas frente al ordenador. En
+                general, para trabajar como nómada digital, necesitas
+                diferenciar el tiempo de trabajo del de ocio. Para centrarte
+                sólo en lo que toca y disfrutar la experiencia de ejercer tu
+                profesión mientras viajas por el mundo.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-card col-lg-12 col-md-6 col-sm-12">
+          <div class="card">
+            <div class="image">
+              <img src="img/passport.png" />
+            </div>
+            <div class="content">
+              <h3>Visa de trabajo</h3>
+              <p class="p-consejos-2">
+                “El visado para el teletrabajo de carácter internacional permite
+                entrar y residir en España durante un máximo de un año”, de
+                acuerdo al anteproyecto de ley para empresas emergentes,
+                impulsado por el Gobierno español.
+              </p>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!--     REQUISITOS -->
+    <section id="requisitos">
+      <div class="h2-titulos text-white d-flex justify-content-center pb-2">
+        <h2 class="bg-dark fs-1 rounded-1 pe-3 ps-3">REQUISITOS</h2>
+      </div>
+      <div class="container">
+        <div class="ratio ratio-16x9 row-cols-8 mb-5">
+          <iframe
+            src="https://www.youtube.com/embed/-_EuJHrISkM"
+            title="YouTube video"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <div class="container-fluid">
+      <form
+        action="thank-you.html"
+        autocomplete="on"
+        method="GET"
+        class="bg-dark row justify-content-center pb-4 position-relative"
+        id="contacto"
+      >
+        <div class="div-contacto pb-3 pt-4 d-flex justify-content-center">
+          <div class="mail-grid me-3">
+            <img src="img/email.png" alt="email" />
+          </div>
+          <div class="d-flex justify-content-center">
+            <h3 class="text-center rounded-1 pe-2 ps-2 text-bg-light">
+              CONTACTO
+            </h3>
+          </div>
+        </div>
+        <div class="col-md-10 col-11">
+          <label for="inputEmail4" class="form-label"
+            >Email <span> *</span></label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="inputEmail4"
+            required="obligatorio"
+            placeholder="example@mail.com"
+          />
+        </div>
+        <div class="col-md-5 col-11">
+          <label for="inputPassword4" class="form-label"
+            >Nombre <span> *</span></label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="inputname"
+            required="obligatorio"
+            placeholder="José"
+          />
+        </div>
+        <div class="col-md-5 col-11">
+          <label for="inputAddress" class="form-label"
+            >Apellido <span> *</span></label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="inputlastname"
+            required="obligatorio"
+            placeholder="Pérez"
+          />
+        </div>
+        <div class="col-md-10 col-11">
+          <label for="inputAddress2" class="form-label"
+            >Teléfono <span> *</span></label
+          >
+          <input
+            type="tel"
+            class="form-control"
+            id="inputAddress2"
+            required="obligatorio"
+            placeholder="112345678"
+          />
+        </div>
+        <div class="col-md-10 col-11">
+          <label for="inputCity" class="form-label"
+            >Mensaje <span> *</span></label
+          >
+          <textarea
+            name="comments"
+            class="form-control"
+            id="comments"
+            required="obligatorio"
+            cols="10"
+            rows="10"
+            placeholder="Coloque aquí su mensaje"
+          ></textarea>
+        </div>
+
+        <div class="col-lg-12 col-md-12 col-11">
+          <div class="d-flex justify-content-center mt-3">
+            <button
+              type="submit"
+              class="btn text-white fw-bold"
+              style="background-color: rgb(120, 57, 156)"
+            >
+              Enviar
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <section>
+      <footer class="bg-dark container-fluid">
+        <div class="row pt-3">
+          <div
+            class="d-flex justify-content-end col-lg-4 col-md-4 col-sm-4 col-4"
+          >
+            <figure class="col-lg-4 col-md-6">
+              <a
+                class="d-flex justify-content-end"
+                href="https://www.instagram.com/"
+                target="_blank"
+              >
+                <img
+                  class="img-fluid w-50"
+                  src="img/ig-icon.png"
+                  alt="instagram"
+                />
+              </a>
+            </figure>
+          </div>
+          <div
+            class="d-flex justify-content-center col-lg-4 col-md-4 col-sm-4 col-4"
+          >
+            <figure class="col-lg-4 col-md-6">
+              <a
+                class="d-flex justify-content-center"
+                href="https://es-la.facebook.com/"
+                target="_blank"
+              >
+                <img class="w-50" src="img/fb-icon.png" alt="facebook" />
+              </a>
+            </figure>
+          </div>
+          <div
+            class="d-flex justify-content-start col-lg-4 col-md-4 col-sm-4 col-4"
+          >
+            <figure class="col-lg-4 col-md-6">
+              <a
+                class="d-flex justify-content-start"
+                href="https://www.whatsapp.com/?lang=es"
+                target="_blank"
+                ><img class="w-50" src="img/wpp-icon.png" alt="whatsapp"
+              /></a>
+            </figure>
+          </div>
+        </div>
+
+        <nav class="container-fluid">
+          <div class="row">
+            <ul class="navbar-nav flex-lg-row justify-content-center">
+              <li class="nav-item col-lg-2 d-flex justify-content-center">
+                <a
+                  class="nav-link active text-light font-weight-bold"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item col-lg-2 d-flex justify-content-center">
+                <a class="nav-link text-light font-weight-bold" href="#ventajas"
+                  >Ventajas</a
+                >
+              </li>
+              <li class="nav-item col-lg-2 d-flex justify-content-center">
+                <a class="nav-link text-light font-weight-bold" href="#consejos"
+                  >Consejos</a
+                >
+              </li>
+              <li class="nav-item col-lg-2 d-flex justify-content-center">
+                <a
+                  class="nav-link text-light font-weight-bold"
+                  href="#requisitos"
+                  >Requisitos</a
+                >
+              </li>
+              <li class="nav-item col-lg-2 d-flex justify-content-center">
+                <a class="nav-link text-light font-weight-bold" href="#contacto"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <section
+          class="mt-3 col-12 text-light container-fluid d-flex flex-lg-row flex-sm-column flex-column justify-content-lg-evenly"
+        >
+          <div class="col-lg-6 d-flex justify-content-center">
+            <p class="text-center">Sitio desarrollado por Matias Poletto</p>
+          </div>
+
+          <div class="col-lg-6 d-flex justify-content-center">
+            <p>matias.poletto@davinci.edu.ar</p>
+          </div>
+        </section>
+      </footer>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+      integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
